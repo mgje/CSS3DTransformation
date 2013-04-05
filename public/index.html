@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" >
+	<title>CSS3 Transformation</title>
+	<link href='css/style.css' rel='stylesheet' >
+</head>
+<body>
+  <div class="SCENE">
+  <div class="OBJECT">
+      <img class="FACE" id="im1" width="300" height="300" src="media/tumblr_1.jpg">
+      <img class="FACE" id="im2" width="300" height="300" src="media/tumblr_2.jpg"> 
+      <img class="FACE" id="im3" width="300" height="300" src="media/tumblr_3.jpg"> 
+      <img class="FACE" id="im4" width="300" height="300" src="media/tumblr_4.jpg"> 
+      <img class="FACE" id="im5" width="300" height="300" src="media/tumblr_5.jpg"> 
+      <img class="FACE" id="im6" width="300" height="300" src="media/tumblr_6.jpg"> 
+  </div>
+</div>
+<div class="CONTROLLER">
+	<form onsubmit="return false;">
+      <fieldset>
+      	Rotate X: <input type="range" name="rotateX" min="-180" max="180" value="0"><br>
+      	Rotate Y: <input type="range" name="rotateY" min="-180" max="180" value="0"><br>
+		Rotate Z: <input type="range" name="rotateZ" min="-180" max="180" value="0">
+     </fieldset>
+  </form>
+</div>
+ <script src="js/script.js"></script>
+</body>
+</html>
